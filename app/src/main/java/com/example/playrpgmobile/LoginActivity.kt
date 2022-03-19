@@ -46,7 +46,7 @@ class LoginActivity : AppCompatActivity() {
         val copyright = findViewById<TextView>(R.id.textView2);
         val year = Calendar.getInstance().get(Calendar.YEAR);
 
-        copyright.text = "Play RPG © $year";
+        copyright.text = "Your name © $year";
 
         val SharedPref = this.getPreferences(Context.MODE_PRIVATE);
 
